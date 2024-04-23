@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Web Dizin Tarama Programı</h1>
-    <p>Bu Python programı, verilen bir başlangıç URL'sinden başlayarak belirtilen derinlikte web sayfalarını taramak için kullanılır. Program, belirli özel kelimeleri arar, belirli bir derinliğe kadar gezinir ve bulunan bağlantıları kaydedebilir.</p>
+    <p>Bu Python programı, belirtilen bir başlangıç URL'sinden başlayarak belirtilen derinlikte web sayfalarını taramak için kullanılır. Program, belirli özel kelimeleri arar, belirli bir derinliğe kadar gezinir ve bulunan bağlantıları kaydedebilir.</p>
     <h2>Özellikler</h2>
     <ul>
         <li>Belirtilen URL'den başlayarak derinliğe kadar web sayfalarını tarar.</li>
@@ -25,13 +25,16 @@
         <li>Tüm bağlantıları kaydetmek istiyorsanız "E" seçeneğini seçin.</li>
     </ol>
     <h2>Nasıl Çalıştırılır</h2>
-    <p>Python 3.6 veya üstü gereklidir. Programı çalıştırmak için aşağıdaki komutu kullanabilirsiniz:</p>
+    <p>Python 3.6 veya üstü gereklidir. Programı çalıştırmadan önce, aşağıdaki kütüphaneleri yüklemeniz gerekmektedir:</p>
+    <ul>
+        <li>requests</li>
+        <li>beautifulsoup4</li>
+        <li>colorama</li>
+    </ul>
+    <p>Ardından aşağıdaki komutu kullanarak programı çalıştırabilirsiniz:</p>
     <pre><code>python web_dizin_tarama.py</code></pre>
-    <h2>Ekran Görüntüsü</h2>
-    <img src="screenshot.png" alt="Web Dizin Tarama Programı Ekran Görüntüsü">
     <h2>Notlar</h2>
     <ul>
-        <li>Programın çalışması için <code>requests</code>, <code>beautifulsoup4</code> ve <code>colorama</code> kütüphanelerinin yüklü olması gerekmektedir.</li>
         <li>Programın çalışması birtakım hatalara neden olabilir, bu nedenle dikkatli kullanılmalıdır.</li>
         <li>Programın kaynak kodunu dilediğiniz gibi değiştirebilir ve geliştirebilirsiniz.</li>
     </ul>
