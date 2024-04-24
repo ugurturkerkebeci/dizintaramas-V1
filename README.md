@@ -35,6 +35,7 @@
     <pre><code>python web_dizin_tarama.py</code></pre>
     <h2 style="color: #36a2eb;">Notlar</h2>
     <ul>
+        <li>Terminal Üzerinde Çalıştırıyorsanız Root Açmayı unutmayınız (Kayıt İşlemi Yetkilendirmesi İçin)</li>
         <li>Programın çalışması birtakım hatalara neden olabilir, bu nedenle dikkatli kullanılmalıdır.</li>
         <li>Programın kaynak kodunu dilediğiniz gibi değiştirebilir ve geliştirebilirsiniz.</li>
     </ul>
