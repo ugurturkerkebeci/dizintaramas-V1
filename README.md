@@ -32,7 +32,7 @@
         <li><span style="color: #ff5733;">colorama</span></li>
     </ul>
     <p>Ardından aşağıdaki komutu kullanarak programı çalıştırabilirsiniz:</p>
-    <pre><code>python web_dizin_tarama.py</code></pre>
+    <pre><code>main.py</code></pre>
     <h2 style="color: #36a2eb;">Notlar</h2>
     <ul>
         <li>Terminal Üzerinde Çalıştırıyorsanız Root Açmayı unutmayınız (Kayıt İşlemi Yetkilendirmesi İçin)</li>
